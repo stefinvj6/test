@@ -448,6 +448,22 @@ nav.navigation-main .logo {
 nav.navigation-main .logo .logo-desktop {
   display: none;
 }
+.logo-index{
+  width: fit-content;
+}
+.logo-mobile{
+  width: 80px;
+}
+.about-logo-mobile,.facility-logo-mobile,.contact-logo-mobile{
+  width: 50px;
+}
+/* .facility-logo-mobile{
+  width: 50px;
+}
+
+.contact-logo-mobile{
+  width: 50px;
+} */
 
 @media (min-width: 992px) {
   nav.navigation-main .logo .logo-desktop {
