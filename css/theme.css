@@ -448,22 +448,18 @@ nav.navigation-main .logo {
 nav.navigation-main .logo .logo-desktop {
   display: none;
 }
-.logo-index{
-  width: fit-content;
-}
 .logo-mobile{
   width: 80px;
 }
 .about-logo-mobile,.facility-logo-mobile,.contact-logo-mobile{
   width: 50px;
 }
-/* .facility-logo-mobile{
-  width: 50px;
-}
 
-.contact-logo-mobile{
-  width: 50px;
-} */
+@media (min-width: 550px) {
+  .logo-index{
+    display: none;
+  }
+}
 
 @media (min-width: 992px) {
   nav.navigation-main .logo .logo-desktop {
@@ -472,6 +468,7 @@ nav.navigation-main .logo .logo-desktop {
   nav.navigation-main .logo .logo-mobile {
     display: none;
   }
+
   nav.navigation-main .logo > a {
     text-align: center;
     height: 100%;
@@ -1024,6 +1021,7 @@ nav.navigation-main .navigation-block ul li > ul li a {
 }
 
 .btn.btn-clean {
+  text-decoration: none;
   background-color: transparent;
   border-color: rgba(255, 255, 255, 0.2);
   color: white !important;
